@@ -24,15 +24,23 @@ const mailOptions = {
 const router = Router()
 
 router.post('/send-email', async (req, res) => {
-    //res.send('received')
-
-    const response = await transporter.sendMail(mailOptions, (error, info) => {
+    /*const response = await transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
             console.log("🚀 ~ response ~ error:", error)
             return res.status(500).send(error.toString());
         }
         res.status(200).send('Correo enviado: ' + info.response);
     });
-    console.log("🚀 ~ response ~ response:", response)
+    res.send(res)*/
+
+    try {
+        const info = await transporter.sendMail(mailOptions);
+        console.log('Correo enviado:', info.response);
+        return res.status(200).send('Correo enviado: ' + JSON.stringify(info));
+    } catch (error) {
+        console.error('Error al enviar el correo:', error);
+        return res.status(500).send(error.toString());
+    }
+
 })
 module.exports = router
