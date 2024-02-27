@@ -1,8 +1,8 @@
 const { Router } = require("express");
 const express = require('express');
 const nodemailer = require('nodemailer');
-const app = express();
-const port = 3001;
+
+const port = 587
 
 const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -11,22 +11,20 @@ const transporter = nodemailer.createTransport({
         pass: 'brirqvryfqgdzxla'
     },
     host: "smtp.gmail.com",
-    port: 587,
-    secure: false
+    port,
+    secure: true
 });
+const mailOptions = {
+    from: '"Ulises Cano Martinez" <eziocano23@gmail.com>',
+    to: 'li_ulisescm@unca.edu.mx',
+    subject: 'Asunto del correo',
+    text: 'Cuerpo del correo',
+};
 
 const router = Router()
-console.log("🚀 ~ router:", router)
 
 router.post('/send-email', async (req, res) => {
     //res.send('received')
-    const mailOptions = {
-        from: '"Ulises Cano Martinez" <eziocano23@gmail.com>',
-        to: 'li_ulisescm@unca.edu.mx',
-        subject: 'Asunto del correo',
-        text: 'Cuerpo del correo',
-    };
-    console.log("🚀 ~ router.post ~ mailOptions:", mailOptions)
 
     const response = await transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
