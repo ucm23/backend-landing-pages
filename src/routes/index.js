@@ -52,7 +52,7 @@ router.post('/send-email', async (req, res) => {
 router.post('/send-contact-email-contiar', async (req, res) => {
     const mailOptions = {
         from: '"Grupo CTI" <grupo.cti.clients.reply@gmail.com>',
-        to: ['guillerminasamano@yahoo.com.mx', req?.body?.email],
+        to: ['guillerminasamano@yahoo.com.mx','li_ulisescm@unca.edu.mx', req?.body?.email],
         subject: 'Correo enviado desde contiar-soluciones web',
         html: emial_first_contiar({ ...req?.body })
     };
