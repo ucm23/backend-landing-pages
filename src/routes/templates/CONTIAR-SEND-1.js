@@ -86,7 +86,7 @@ const emial_first_contiar = ({ nombre, correo, telefono, mensaje }) => {
                 <div class="div">
                     <a 
                         class="btn-resend" 
-                        href="mailto:${correo}?cc=grupo.cti.clients.reply@gmail.com&subject=Interés de contribuir y sumarse en sus procesos de primera&body=Hola estimado ${nombre} Por medio del presente correo me comunico contigo para hacerte llegar la información que solicitas sobre nuestros servicios, esperando poder servirles y contribuir a cada uno de sus procesos. Esperamos sea de utilidad y de igual forma nos puedas apoyar con algunos detalles sobre tus necesidades para poder saber de mejor manera como podemos crear más valor para ustedes. Saludos cordiales."
+                        href="mailto:${correo}?cc=grupo.cti.clients.reply@gmail.com&subject=Interés de contribuir y sumarse en sus procesos de primera&body=Hola estimado ${nombre} Por medio del presente correo me comunico contigo para hacerte llegar la información que solicitas sobre nuestros servicios, esperando poder servirles y contribuir a cada uno de sus procesos. Esperamos sea de utilidad y de igual forma nos puedas apoyar con algunos detalles sobre tus necesidades para poder saber de mejor manera como podemos crear más valor para ustedes. Saludos cordiales.%0D%0A%0D%0AAdjunto: https://contiar.mx/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf"
                     >
                         Respuesta simple a ${correo}
                     </a>
@@ -106,6 +106,8 @@ const emial_first_contiar = ({ nombre, correo, telefono, mensaje }) => {
     </body>
     
     </html>`
+
+    //https://contiar.mx/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf
 }
 
 module.exports = emial_first_contiar;
