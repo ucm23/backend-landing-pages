@@ -6,19 +6,20 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const emial_first_contiar_receveid = require('./templates/CONTIAR-SEND-2');
 
-const port = 587
-
-
+const port_cti = 587;
+const port_contiar = 587; //465
 
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'imap.ionos.mx',
     auth: {
-        user: 'grupo.cti.clients.reply@gmail.com',
-        pass: 'tavjmefmiugrlglc'
+        user: 'support@contiar.mx',
+        //pass: 'tavjmefmiugrlglc',
+        pass: '8D5e*T*4pVEpZt5'
     },
-    host: "smtp.gmail.com",
-    port,
+    host: "smtp.ionos.mx",
+    port: 465,
     secure: true
+    //encrip: ssl 465 cls
 });
 
 const router = Router()
@@ -52,13 +53,13 @@ router.post('/send-email', async (req, res) => {
 
 router.post('/send-contact-email-contiar', async (req, res) => {
     const mailOptionsSend = {
-        from: '"Contiar Soluciones" <grupo.cti.clients.reply@gmail.com>',
-        to: ['guillerminasamano@yahoo.com.mx','li_ulisescm@unca.edu.mx', 'luis.ruiz@contiar.mx'],
+        from: '"Contiar Soluciones" <support@contiar.mx>',
+        to: [/*'guillerminasamano@yahoo.com.mx',*/'li_ulisescm@unca.edu.mx',/* 'luis.ruiz@contiar.mx'*/],
         subject: 'Correo enviado desde CONTIAR SOLUCIONES web',
         html: emial_first_contiar({ ...req?.body })
     };
     const mailOptionsReceived = {
-        from: '"Contiar Soluciones" <grupo.cti.clients.reply@gmail.com>',
+        from: '"Contiar Soluciones" <support@contiar.mx>',
         to: [req?.body?.correo],
         subject: 'Solicitud de información desde CONTIAR SOLUCIONES web',
         html: emial_first_contiar_receveid({ ...req?.body })

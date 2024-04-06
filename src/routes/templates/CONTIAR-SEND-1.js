@@ -79,7 +79,7 @@ const emial_first_contiar = ({ nombre, correo, telefono, mensaje }) => {
                 <br />
                 <div class="div">
                     <a class="btn-resend"
-                        href="mailto:${correo}?cc=grupo.cti.clients.reply@gmail.com&subject=Interés de contribuir y sumarse en sus procesos de primera&body=Hola estimado ${nombre} Por medio del presente correo me comunico contigo para hacerte llegar la información que solicitas sobre nuestros servicios, esperando poder servirles y contribuir a cada uno de sus procesos.%0D%0A%0D%0AEsperamos sea de utilidad y de igual forma nos puedas apoyar con algunos detalles sobre tus necesidades para poder saber de mejor manera como podemos crear más valor para ustedes...%0D%0A%0D%0A(Añada más información)%0D%0A%0D%0ASaludos cordiales.">
+                        href="mailto:${correo}?cc=support@contiar.mx@gmail.com&subject=Interés de contribuir y sumarse en sus procesos de primera&body=Hola estimado ${nombre} Por medio del presente correo me comunico contigo para hacerte llegar la información que solicitas sobre nuestros servicios, esperando poder servirles y contribuir a cada uno de sus procesos.%0D%0A%0D%0AEsperamos sea de utilidad y de igual forma nos puedas apoyar con algunos detalles sobre tus necesidades para poder saber de mejor manera como podemos crear más valor para ustedes...%0D%0A%0D%0A(Añada más información)%0D%0A%0D%0ASaludos cordiales.">
                         Respuesta simple a ${correo}
                     </a>
                 </div>

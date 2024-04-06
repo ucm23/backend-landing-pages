@@ -205,7 +205,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                 <br />
                 <div class="div">
                     <a class="btn-resend"
-                        href="mailto:luis.ruiz@contiar.mx?cc=grupo.cti.clients.reply@gmail.com&subject=Tengo interés de contribuir y sumarse en sus procesos&body=Hola,%0D%0A%0D%0AEstimado Contiar Soluciones Por medio del presente correo me comunico contigo para hacerte saber que estoy interesado en solicitar uno de sus servicios... (Añada más información) %0D%0A%0D%0ASaludos cordiales.%0D%0A%0D%0AAtentamente%0D%0A%0D%0A${nombre}">
+                        href="mailto:luis.ruiz@contiar.mx?cc=support@contiar.mx@gmail.com&subject=Tengo interés de contribuir y sumarse en sus procesos&body=Hola,%0D%0A%0D%0AEstimado Contiar Soluciones Por medio del presente correo me comunico contigo para hacerte saber que estoy interesado en solicitar uno de sus servicios... (Añada más información) %0D%0A%0D%0ASaludos cordiales.%0D%0A%0D%0AAtentamente%0D%0A%0D%0A${nombre}">
                         Responder a luis.ruiz@contiar.mx
                     </a>
                 </div>
