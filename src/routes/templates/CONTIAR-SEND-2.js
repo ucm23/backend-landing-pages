@@ -49,7 +49,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                 text-decoration: none;
                 font-size: 13px;
             }
-            .btn-files {
+            .btn-files_ {
                 background-image: url('https://contiar.mx/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf');
                 background-size: cover;
                 background-position: center;
@@ -116,7 +116,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                 height: 30px;
                 background-color: red;
             }
-            .files {
+            .files_ {
             }
         </style>
     </head>
@@ -143,7 +143,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                 <h1>
                     Saludos cordiales
                 </h1>
-                <div class="files">
+                <div class="files_">
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf">
                         <div class="cabecera">
                             <div class="data">
