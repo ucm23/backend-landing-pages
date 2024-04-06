@@ -148,7 +148,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                         <div class="cabecera">
                             <div class="data">
                                 <h3>Sistemas Inteligentes de Transporte</h3>
-                                <span>ENLACE</span>
+                                <span>Abrir enlace</span>
                             </div>
                         </div>
                     </a>
@@ -156,7 +156,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                         <div class="cabecera">
                             <div class="data">
                                 <h3>Análisis, Diseño y Mantenimiento de Sistemas</h3>
-                                <span>ENLACE</span>
+                                <span>Abrir enlace</span>
                             </div>
                         </div>
                     </a>
@@ -164,7 +164,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                         <div class="cabecera">
                             <div class="data">
                                 <h3>Integración de hardware y software</h3>
-                                <span>ENLACE</span>
+                                <span>Abrir enlace</span>
                             </div>
                         </div>
                     </a>
@@ -172,7 +172,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                         <div class="cabecera">
                             <div class="data">
                                 <h3>Análisis y Automatización De Procesos</h3>
-                                <span>ENLACE</span>
+                                <span>Abrir enlace</span>
                             </div>
                         </div>
                     </a>
@@ -180,7 +180,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                         <div class="cabecera">
                             <div class="data">
                                 <h3>Diseño de Arquitectura Segura TICs</h3>
-                                <span>ENLACE</span>
+                                <span>Abrir enlace</span>
                             </div>
                         </div>
                     </a>
@@ -188,7 +188,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                         <div class="cabecera">
                             <div class="data">
                                 <h3>Capacitación en ciberseguridad</h3>
-                                <span>ENLACE</span>
+                                <span>Abrir enlace</span>
                             </div>
                         </div>
                     </a>
@@ -197,7 +197,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                             <div class="data">
                                 <h3>Servicio de Actualización y Concientización para administradores y usuarios de Servicios
                                     TICs</h3>
-                                <span>ENLACE</span>
+                                <span>Abrir enlace</span>
                             </div>
                         </div>
                     </a>
