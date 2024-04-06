@@ -79,6 +79,7 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                 padding: 20px;
                 clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%);
                 border: 1px solid gray;
+                margin-top: 8px;
             }
             .cabecera {
                 position: relative;
@@ -116,10 +117,6 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                 background-color: red;
             }
             .files {
-                gap: 10px;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
             }
         </style>
     </head>
@@ -149,80 +146,59 @@ const emial_first_contiar_receveid = ({ nombre, correo, telefono, mensaje }) => 
                 <div class="files">
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/CONTIAR-SOLUCIONES-ITS-2024.pdf">
                         <div class="cabecera">
-                            <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x16.png"
-                                alt="icon-pdf" />
                             <div class="data">
                                 <h3>Sistemas Inteligentes de Transporte</h3>
                                 <span>ENLACE</span>
                             </div>
-                            <div class="esquina-doblada"></div>
                         </div>
                     </a>
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/1.pdf">
                         <div class="cabecera">
-                            <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x16.png"
-                                alt="icon-pdf" />
                             <div class="data">
                                 <h3>Análisis, Diseño y Mantenimiento de Sistemas</h3>
                                 <span>ENLACE</span>
                             </div>
-                            <div class="esquina-doblada"></div>
                         </div>
                     </a>
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/2.pdf">
                         <div class="cabecera">
-                            <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x16.png"
-                                alt="icon-pdf" />
                             <div class="data">
                                 <h3>Integración de hardware y software</h3>
                                 <span>ENLACE</span>
                             </div>
-                            <div class="esquina-doblada"></div>
                         </div>
                     </a>
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/3.pdf">
                         <div class="cabecera">
-                            <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x16.png"
-                                alt="icon-pdf" />
                             <div class="data">
                                 <h3>Análisis y Automatización De Procesos</h3>
                                 <span>ENLACE</span>
                             </div>
-                            <div class="esquina-doblada"></div>
                         </div>
                     </a>
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/4.pdf">
                         <div class="cabecera">
-                            <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x16.png"
-                                alt="icon-pdf" />
                             <div class="data">
                                 <h3>Diseño de Arquitectura Segura TICs</h3>
                                 <span>ENLACE</span>
                             </div>
-                            <div class="esquina-doblada"></div>
                         </div>
                     </a>
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/5.pdf">
                         <div class="cabecera">
-                            <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x16.png"
-                                alt="icon-pdf" />
                             <div class="data">
                                 <h3>Capacitación en ciberseguridad</h3>
                                 <span>ENLACE</span>
                             </div>
-                            <div class="esquina-doblada"></div>
                         </div>
                     </a>
                     <a class="nota" target="_blank" href="https://contiar.mx/docs/6.pdf">
                         <div class="cabecera">
-                            <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x16.png"
-                                alt="icon-pdf" />
                             <div class="data">
                                 <h3>Servicio de Actualización y Concientización para administradores y usuarios de Servicios
                                     TICs</h3>
                                 <span>ENLACE</span>
                             </div>
-                            <div class="esquina-doblada"></div>
                         </div>
                     </a>
                 </div>
