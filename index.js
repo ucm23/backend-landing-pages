@@ -22,6 +22,11 @@ app.get('/get-email', (req, res) => {
     res.send('Recibiendo correos...');
 });
 
+app.get('/', (req, res) => {
+    res.send('api...');
+});
+
+
 //setInterval(recibirCorreos, 60000);
 
 app.listen(port, () => {

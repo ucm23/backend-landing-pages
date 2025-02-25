@@ -55,13 +55,13 @@ router.post('/send-contact-email-contiar', async (req, res) => {
     const mailOptionsSend = {
         from: '"Contiar Soluciones" <support@contiar.mx>',
         to: [/*'guillerminasamano@yahoo.com.mx',*/'li_ulisescm@unca.edu.mx',/* 'luis.ruiz@contiar.mx'*/],
-        subject: 'Correo enviado desde CONTIAR SOLUCIONES web',
+        subject: 'Solicitud de información desde CONTIAR SOLUCIONES web',
         html: emial_first_contiar({ ...req?.body })
     };
     const mailOptionsReceived = {
         from: '"Contiar Soluciones" <support@contiar.mx>',
         to: [req?.body?.correo],
-        subject: 'Solicitud de información desde CONTIAR SOLUCIONES web',
+        subject: 'Correo enviado desde CONTIAR SOLUCIONES web',
         html: emial_first_contiar_receveid({ ...req?.body })
     };
     try {
